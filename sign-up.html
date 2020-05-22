@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penfield Trust Bank Sign-Up Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="sign-up.css">
+</head>
+<body>
+    <div id = 'header'> 
+        <a href='index.html'> <img class='logo' src="home.png"> </a>
+    </div>
+    <div class = 'back'>Sign Up Form</div>
+    <div class = 'reg'>
+      <form>
+        <p class="descr" style="color:green">PERSONAL INFORMATION</p>
+        <div class= "content">
+          <div class="item"><input type="text" name="Firstname" placeholder="First Name" required></div>
+          <div class="item"><input type="text" name="Lastname" placeholder="Last Name" required></div>
+          <div class="item"><input type="email" name="email" placeholder="Email Address" required> </div>
+          <div class="item"><input type="text" name="Phonenumber" placeholder="Phone Number" required> </div>
+          <div><label for="Birthday">Date of Birth:</label> <br>
+          <input id="Birthday" type="date" name="Birthday" required>
+          </div>
+
+          <div><label for="Gender">Gender</label> 
+              <select name='Gender'>
+                <option>sex
+                </option>
+                <option value="Male" name="Male">Male
+                </option>
+                <option value="Female" name="Female">Female</option>
+                <option value="others" name="others">others
+                </option>
+              </select>
+          </div>
+
+          <div class="item add add1"><input class="size" type="text" name="address1" placeholder="Address 1" required></div>
+          <div class="item"><input class="size2"type="text" name="address2" placeholder="Address 2">
+          </div>
+          <div class="item add add2"><input type ="text" name="City" placeholder="City" required></div>
+          <div class="item"><input type="text" name="Zipcode" placeholder="Postal/ZipCode" required></div>
+          <div class='country item' > Country: <br>
+          <input type="text" name="Country" required></div>
+          <div class='State item' > 
+          State: <br>
+          <input type="text" name="State" required>
+          </div>
+        </div> 
+       <br>
+        <br>
+      <a   onclick="check(this.form)" data-dismiss="modal" type="button" class="btn btn-primary btn-lg" href="index.html" >Submit</a>
+      <script language="javascript">
+          function check(form) {
+            
+                  alert("please check your email for more information on how to continue.THANK YOU!")
+              }
+          
+          </script>
+    </form>
+    </div>
+    
+    <div id="footer">
+      
+    </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
