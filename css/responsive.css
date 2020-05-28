@@ -33,6 +33,7 @@
     
 }
 
+
 /* Large Devices, Wide Screen */
 @media only screen and (min-width: 1200px) {
     
@@ -47,8 +48,14 @@
     .log{
         font-size: 20px;
         }
+      .header-iphone {
+        display: none;
+    }
+     .tabue {
+        display: none;
+    }
 .menu ul{
-    margin-top: 1100px;
+    margin-top: 11px;
    margin-bottom: 0;
     margin-left:0;
     
@@ -60,7 +67,7 @@
     vertical-align: middle;
 }
 .footer{
-    margin-top:1300px;
+    margin-top:13px;
     margin-bottom:0;
 }
 }
