@@ -30,13 +30,13 @@
 /* Medius Devices , Desktop */
 @media only screen and (min-width: 992px) {
  .menu ul{
-        margin-top: 1000px;
+        margin-top: 10px;
        margin-bottom: 0;
         margin-left:0;
     
 }
 .footer{
-    margin-top:1300px;
+    margin-top:13px;
     margin-bottom:0;
 }
     
